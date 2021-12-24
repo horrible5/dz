@@ -11,7 +11,8 @@
 
 
 def end_of_lesson(n: int) -> (int, int):
-    return 0, 0
+    n = n * 45 + (n // 2) * 5 + ((n + 1) // 2 - 1) * 15
+    print(n // 60 + 8, n % 60)
 
 
 if __name__ == "__main__":

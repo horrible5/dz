@@ -29,7 +29,6 @@ def find_floor(floors, n):
     n - номер квартиры
     """
 
-    return 0
 
 
 if __name__ == "__main__":
